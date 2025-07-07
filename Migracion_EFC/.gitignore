@@ -1,0 +1,9 @@
+venv
+.venv
+__pycache__
+*.sql
+*.sqlite
+*.db
+*.db-journal
+*.log
+main2.py

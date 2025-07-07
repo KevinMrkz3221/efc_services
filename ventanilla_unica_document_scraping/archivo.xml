@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Header>
+        <wsse:Security
+            xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+            S:mustUnderstand="1">
+            <wsu:Timestamp
+                xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsu:Created>2025-07-01T22:29:51Z</wsu:Created>
+                <wsu:Expires>2025-07-01T22:30:51Z</wsu:Expires>
+            </wsu:Timestamp>
+        </wsse:Security>
+    </S:Header>
+    <S:Body>
+        <ns2:consultarPedimentoCompletoRespuesta
+            xmlns="http://www.ventanillaunica.gob.mx/pedimentos/ws/oxml/comunes"
+            xmlns:ns2="http://www.ventanillaunica.gob.mx/pedimentos/ws/oxml/consultarpedimentocompleto"
+            xmlns:ns3="http://www.ventanillaunica.gob.mx/common/ws/oxml/respuesta"
+            xmlns:ns4="http://www.ventanillaunica.gob.mx/common/ws/oxml/resolucion"
+            xmlns:ns5="http://www.ventanillaunica.gob.mx/common/ws/oxml/respuestatra"
+            xmlns:ns6="http://www.ventanillaunica.gob.mx/common/ws/oxml/dictamen"
+            xmlns:ns7="http://www.ventanillaunica.gob.mx/common/ws/oxml/observacion"
+            xmlns:ns8="http://www.ventanillaunica.gob.mx/common/ws/oxml/requisito"
+            xmlns:ns9="http://www.ventanillaunica.gob.mx/common/ws/oxml/opinion">
+            <ns3:tieneError>false</ns3:tieneError>
+            <ns2:numeroOperacion>21196267099</ns2:numeroOperacion>
+            <ns2:pedimento>
+                <ns2:pedimento>1005032</ns2:pedimento>
+                <ns2:encabezado>
+                    <ns2:tipoOperacion>
+                        <ns2:clave>2</ns2:clave>
+                        <ns2:descripcion>Exportacion</ns2:descripcion>
+                    </ns2:tipoOperacion>
+                    <ns2:claveDocumento>
+                        <ns2:clave>V1</ns2:clave>
+                        <ns2:descripcion>TRANSFERENCIAS POR PARTE DE MAQUILADORAS, PITEX O ECEX
+                            (EXPORTACION).</ns2:descripcion>
+                    </ns2:claveDocumento>
+                    <ns2:destino>
+                        <ns2:clave>7</ns2:clave>
+                        <ns2:descripcion>FRANJA FRONTERIZA NORTE</ns2:descripcion>
+                    </ns2:destino>
+                    <ns2:aduanaEntradaSalida>
+                        <ns2:clave>70</ns2:clave>
+                        <ns2:descripcion>CIUDAD JUAREZ, CIUDAD JUAREZ, CHIHUAHUA.</ns2:descripcion>
+                    </ns2:aduanaEntradaSalida>
+                    <ns2:tipoCambio>19.88780</ns2:tipoCambio>
+                    <ns2:pesoBruto>66.000</ns2:pesoBruto>
+                    <ns2:medioTrasnporteSalida>
+                        <ns2:clave>98</ns2:clave>
+                        <ns2:descripcion>NO SE DECLARA MEDIO DE TRANSPORTE</ns2:descripcion>
+                    </ns2:medioTrasnporteSalida>
+                    <ns2:medioTrasnporteArribo>
+                        <ns2:clave>98</ns2:clave>
+                        <ns2:descripcion>NO SE DECLARA MEDIO DE TRANSPORTE</ns2:descripcion>
+                    </ns2:medioTrasnporteArribo>
+                    <ns2:medioTrasnporteEntrada>
+                        <ns2:clave>98</ns2:clave>
+                        <ns2:descripcion>NO SE DECLARA MEDIO DE TRANSPORTE</ns2:descripcion>
+                    </ns2:medioTrasnporteEntrada>
+                    <ns2:curpApoderadomandatario>ROAA690622HCHDLD06</ns2:curpApoderadomandatario>
+                    <ns2:rfcAgenteAduanalSocFactura>WAA021220796</ns2:rfcAgenteAduanalSocFactura>
+                    <ns2:valorAduanalTotal>0.00</ns2:valorAduanalTotal>
+                    <ns2:valorComercialTotal>18588.00</ns2:valorComercialTotal>
+                </ns2:encabezado>
+                <ns2:importadorExportador>
+                    <ns2:rfc>MFN031210AT9</ns2:rfc>
+                    <ns2:razonSocial>MAQUILADOS FRONTERIZOS DEL NORTE, S.A. DE C.V. </ns2:razonSocial>
+                    <ns2:domicilio>
+                        <ns2:calle>JUAN KEPLER </ns2:calle>
+                        <ns2:numeroExterior>6776</ns2:numeroExterior>
+                        <ns2:ciudadMunicipio>COL. PARTIDO IGLESIAS, CD. JUAREZ </ns2:ciudadMunicipio>
+                        <ns2:codigoPostal>32663 </ns2:codigoPostal>
+                    </ns2:domicilio>
+                    <ns2:seguros>0.00</ns2:seguros>
+                    <ns2:fletes>0.00</ns2:fletes>
+                    <ns2:embalajes>0.00</ns2:embalajes>
+                    <ns2:incrementables>0.00</ns2:incrementables>
+                    <ns2:aaduanaDespacho>
+                        <ns2:clave>70</ns2:clave>
+                        <ns2:descripcion>CIUDAD JUAREZ, CIUDAD JUAREZ, CHIHUAHUA.</ns2:descripcion>
+                    </ns2:aaduanaDespacho>
+                    <ns2:fechas>
+                        <ns2:fecha>2021-09-08-06:00</ns2:fecha>
+                        <ns2:tipo>
+                            <ns2:clave>2</ns2:clave>
+                            <ns2:descripcion>FECHA DE PAGO DE LAS CONTRIBUCIONES</ns2:descripcion>
+                        </ns2:tipo>
+                    </ns2:fechas>
+                    <ns2:fechas>
+                        <ns2:fecha>2021-08-02-06:00</ns2:fecha>
+                        <ns2:tipo>
+                            <ns2:clave>5</ns2:clave>
+                            <ns2:descripcion>FECHA DE PRESENTACION</ns2:descripcion>
+                        </ns2:tipo>
+                    </ns2:fechas>
+                    <ns2:efectivo>278.00</ns2:efectivo>
+                    <ns2:otros>630.00</ns2:otros>
+                    <ns2:total>908.00</ns2:total>
+                    <ns2:pais>
+                        <clave>MEX</clave>
+                        <descripcion>MEXICO (ESTADOS UNIDOS MEXICANOS)</descripcion>
+                    </ns2:pais>
+                </ns2:importadorExportador>
+                <ns2:tasas>
+                    <ns2:contribucion>
+                        <ns2:clave>23</ns2:clave>
+                        <ns2:descripcion>IVA PREV</ns2:descripcion>
+                    </ns2:contribucion>
+                    <ns2:tipoTasa>
+                        <clave>1</clave>
+                        <descripcion>PORCENTUAL</descripcion>
+                    </ns2:tipoTasa>
+                    <ns2:tasaAplicable>16.0000000000</ns2:tasaAplicable>
+                    <ns2:formaPago>
+                        <clave>0</clave>
+                        <descripcion>EFECTIVO</descripcion>
+                    </ns2:formaPago>
+                    <ns2:importe>38.00</ns2:importe>
+                </ns2:tasas>
+                <ns2:tasas>
+                    <ns2:contribucion>
+                        <ns2:clave>15</ns2:clave>
+                        <ns2:descripcion>PREVALIDAAAA</ns2:descripcion>
+                    </ns2:contribucion>
+                    <ns2:tipoTasa>
+                        <clave>2</clave>
+                        <descripcion>ESPECIFICO</descripcion>
+                    </ns2:tipoTasa>
+                    <ns2:tasaAplicable>240.0000000000</ns2:tasaAplicable>
+                    <ns2:formaPago>
+                        <clave>0</clave>
+                        <descripcion>EFECTIVO</descripcion>
+                    </ns2:formaPago>
+                    <ns2:importe>240.00</ns2:importe>
+                </ns2:tasas>
+                <ns2:tasas>
+                    <ns2:contribucion>
+                        <ns2:clave>1</ns2:clave>
+                        <ns2:descripcion>DTA</ns2:descripcion>
+                    </ns2:contribucion>
+                    <ns2:tipoTasa>
+                        <clave>4</clave>
+                        <descripcion>ESPECIFICO (CUOTA FIJA) DTA</descripcion>
+                    </ns2:tipoTasa>
+                    <ns2:tasaAplicable>352.0000000000</ns2:tasaAplicable>
+                    <ns2:formaPago>
+                        <clave>9</clave>
+                        <descripcion>EXENTO DE PAGO</descripcion>
+                    </ns2:formaPago>
+                    <ns2:importe>352.00</ns2:importe>
+                </ns2:tasas>
+                <ns2:destinatarios>
+                    <ns2:identificadorFiscal>AME8307251NA</ns2:identificadorFiscal>
+                    <ns2:nombre>JOHNSON CONTROLS ASC SYSTEMS, S.A.P.I. DE C.V. </ns2:nombre>
+                    <ns2:domicilio>
+                        <ns2:numeroExterior>951</ns2:numeroExterior>
+                        <ns2:ciudadMunicipio>PARQUE INDUSTRIAL GEMA, CD. JUAREZ </ns2:ciudadMunicipio>
+                        <ns2:codigoPostal>32648</ns2:codigoPostal>
+                        <ns2:pais>MEXICO (ESTADOS UNIDOS MEXICANOS)</ns2:pais>
+                    </ns2:domicilio>
+                    <ns2:pais>
+                        <clave>MEX</clave>
+                        <descripcion>MEXICO (ESTADOS UNIDOS MEXICANOS)</descripcion>
+                    </ns2:pais>
+                </ns2:destinatarios>
+                <ns2:identificadores>
+                    <ns2:identificadores>
+                        <claveIdentificador>
+                            <clave>PC</clave>
+                            <descripcion>PEDIMENTO CONSOLIDADO</descripcion>
+                        </claveIdentificador>
+                    </ns2:identificadores>
+                    <ns2:identificadores>
+                        <claveIdentificador>
+                            <clave>V1</clave>
+                            <descripcion>OPERACIONES REALIZADAS DE CONFORMIDAD CON LAS REGLAS 5.1.8.
+                                O 5.1.11.</descripcion>
+                        </claveIdentificador>
+                        <complemento1>1492006</complemento1>
+                        <complemento2>IM</complemento2>
+                    </ns2:identificadores>
+                    <ns2:identificadores>
+                        <claveIdentificador>
+                            <clave>ST</clave>
+                            <descripcion>OPERACIONES SUJETAS AL ARTICULO 2.5 DEL TMEC</descripcion>
+                        </claveIdentificador>
+                        <complemento1>22</complemento1>
+                    </ns2:identificadores>
+                    <ns2:identificadores>
+                        <claveIdentificador>
+                            <clave>IM</clave>
+                            <descripcion>AUTORIZACION DE EMPRESA CON PROGRAMA IMMEX</descripcion>
+                        </claveIdentificador>
+                        <complemento1>2942010</complemento1>
+                    </ns2:identificadores>
+                </ns2:identificadores>
+                <ns2:descargos>
+                    <ns2:patenteOriginal>1769</ns2:patenteOriginal>
+                    <ns2:pedimentoOriginal>1002466</ns2:pedimentoOriginal>
+                    <ns2:aduanaOriginal>
+                        <ns2:clave>480</ns2:clave>
+                        <ns2:descripcion>GUADALAJARA, TLACOMULCO DE ZUÑIGA, JALISCO.</ns2:descripcion>
+                    </ns2:aduanaOriginal>
+                    <ns2:claveDocumentoOriginal>
+                        <ns2:clave>V1</ns2:clave>
+                        <ns2:descripcion>TRANSFERENCIAS POR PARTE DE MAQUILADORAS, PITEX O ECEX
+                            (IMPORTACION).</ns2:descripcion>
+                    </ns2:claveDocumentoOriginal>
+                    <ns2:fechaPagoOriginal>2021-09-08-06:00</ns2:fechaPagoOriginal>
+                    <ns2:fraccionOriginal>48211001</ns2:fraccionOriginal>
+                    <ns2:UnidadMedida>
+                        <clave>6</clave>
+                        <descripcion>PIEZA</descripcion>
+                    </ns2:UnidadMedida>
+                    <ns2:cantidad>10000.00000</ns2:cantidad>
+                </ns2:descargos>
+                <ns2:descargos>
+                    <ns2:patenteOriginal>1769</ns2:patenteOriginal>
+                    <ns2:pedimentoOriginal>1002466</ns2:pedimentoOriginal>
+                    <ns2:aduanaOriginal>
+                        <ns2:clave>480</ns2:clave>
+                        <ns2:descripcion>GUADALAJARA, TLACOMULCO DE ZUÑIGA, JALISCO.</ns2:descripcion>
+                    </ns2:aduanaOriginal>
+                    <ns2:claveDocumentoOriginal>
+                        <ns2:clave>V1</ns2:clave>
+                        <ns2:descripcion>TRANSFERENCIAS POR PARTE DE MAQUILADORAS, PITEX O ECEX
+                            (IMPORTACION).</ns2:descripcion>
+                    </ns2:claveDocumentoOriginal>
+                    <ns2:fechaPagoOriginal>2021-09-08-06:00</ns2:fechaPagoOriginal>
+                    <ns2:fraccionOriginal>39191001</ns2:fraccionOriginal>
+                    <ns2:UnidadMedida>
+                        <clave>6</clave>
+                        <descripcion>PIEZA</descripcion>
+                    </ns2:UnidadMedida>
+                    <ns2:cantidad>6000.00000</ns2:cantidad>
+                </ns2:descargos>
+                <ns2:descargos>
+                    <ns2:patenteOriginal>1769</ns2:patenteOriginal>
+                    <ns2:pedimentoOriginal>1002466</ns2:pedimentoOriginal>
+                    <ns2:aduanaOriginal>
+                        <ns2:clave>480</ns2:clave>
+                        <ns2:descripcion>GUADALAJARA, TLACOMULCO DE ZUÑIGA, JALISCO.</ns2:descripcion>
+                    </ns2:aduanaOriginal>
+                    <ns2:claveDocumentoOriginal>
+                        <ns2:clave>V1</ns2:clave>
+                        <ns2:descripcion>TRANSFERENCIAS POR PARTE DE MAQUILADORAS, PITEX O ECEX
+                            (IMPORTACION).</ns2:descripcion>
+                    </ns2:claveDocumentoOriginal>
+                    <ns2:fechaPagoOriginal>2021-09-08-06:00</ns2:fechaPagoOriginal>
+                    <ns2:fraccionOriginal>49011099</ns2:fraccionOriginal>
+                    <ns2:UnidadMedida>
+                        <clave>6</clave>
+                        <descripcion>PIEZA</descripcion>
+                    </ns2:UnidadMedida>
+                    <ns2:cantidad>11000.00000</ns2:cantidad>
+                </ns2:descargos>
+                <ns2:observaciones>
+                    TRANSFERENCIA DE MERCANCIA DE CONFORMIDAD CON LAS REGLAS
+                    GENERALES 4.3.21. Y 5.2.4. DE COMERCIO EXTERIOR PUBLICADAS EN EL D.O.F. Y ART.
+                    112 DE LA LEY ADUANERA VIGENTES. 
+                </ns2:observaciones>
+                <ns2:partidas>5</ns2:partidas>
+                <ns2:partidas>3</ns2:partidas>
+                <ns2:partidas>4</ns2:partidas>
+                <ns2:partidas>2</ns2:partidas>
+                <ns2:partidas>1</ns2:partidas>
+            </ns2:pedimento>
+        </ns2:consultarPedimentoCompletoRespuesta>
+    </S:Body>
+</S:Envelope>
